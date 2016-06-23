@@ -1,0 +1,274 @@
+body{
+	font-family: sans-serif;
+}
+
+.right-admin a{
+	text-decoration: none;
+	color: #000;
+}
+
+.left-admin a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.left-admin{
+	width: 20%;
+	background: #252525;
+	position: fixed;
+	height: 100%;
+	float: left;
+	color: #FFF;
+}
+
+.left-admin h1{
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.left-admin h2{
+	font-size: 12px;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: 20px;
+}
+
+.left-admin a{
+	text-decoration: none;
+}
+
+.left-admin ul{
+	margin-top: 40px;
+}
+
+.left-admin li{
+	color: #FFF;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 40px;
+
+}
+
+.left-admin img{
+	width: 14px;
+	margin-right: 10px;
+}
+
+.right-admin{
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+
+.right-admin select{
+	margin-bottom: 20px;
+}
+
+.container-admin{
+	 width: 90%;
+	 margin: auto;
+}
+
+.right-admin .main{
+	display: block;
+}
+
+.right-admin .none{
+	display: none;
+}
+
+.right-admin h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.right-admin h4{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.right-admin h5{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.right-admin h5 span{
+	font-size: 30px;
+	color: #19266C;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.right-admin p{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.right-admin p span.pourc{
+	margin-left: 0px;
+}
+
+.right-admin p span{
+	font-size: 24px;
+	font-weight: bold;
+	color: #19266C;
+	margin-bottom: 10px;
+	margin-left: 10px;
+
+}
+
+.right-admin th{
+	font-weight: bold;
+}
+
+#piechart{
+	margin: auto;
+}
+
+#chart_div{
+	height: 310px;
+	width: 50%;
+	float: left;
+}
+
+#top_x_div{
+	float: right;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.right-admin .bar{
+	width: 100%;
+	height: 1px;
+	background: #aeaeae;
+	margin-bottom: 30px;
+}
+
+.mini-bar{
+	width: 111px;
+	height: 1px;
+	background: #FFF;
+	margin-left: 45px;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.mini-bar-stats{
+	width: 98px;
+	height: 1px;
+	background: #FFF;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+table.signataire{
+	width: 100%;
+}
+
+table.signataire th{
+	height: 25px;
+}
+
+
+table.signataire td{
+	text-align: center;
+	height: 25px;
+}
+
+.right-admin .nom{
+	width: 20%;
+}
+
+.right-admin .prenom{
+	width: 20%;
+}
+
+.right-admin .mail{
+	width: 60%;
+}
+
+
+
+
+.right-admin .auteur{
+	width: 20%;
+}
+
+.right-admin .comment{
+	width: 50%;
+}
+
+.right-admin .date{
+	width: 20%;
+}
+
+.right-admin .validation{
+	width: 10%;
+}
+
+
+
+.right-admin .valid .auteur{
+	width: 20%;
+}
+
+.right-admin .valid .comment{
+	width: 50%;
+}
+
+.right-admin .valid .date{
+	width: 20%;
+}
+
+.right-admin .valid .validation{
+	width: 10%;
+}
+
+
+
+.right-admin ul{
+	width: 100%;
+	clear: both;
+}
+.right-admin ul li{
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+progress {
+	background: red;
+	border-radius: 10px;
+	height: 12px;
+	width: 200px;
+	margin-left: 100px;
+}
+
+
+progress::-webkit-progress-bar { 
+	background: #D8D8D8;
+	border-radius: 10px;
+	height: 12px;
+
+}
+progress::-webkit-progress-value {  
+    /* styles de barre d'avancement pour Webkit */
+    background: #01016D;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}  
+progress::-moz-progress-bar { 
+    /* styles de barre d'avancement pour Firefox */
+}

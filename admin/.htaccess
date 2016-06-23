@@ -1,0 +1,4 @@
+AuthName "Page d'administration"
+AuthType Basic
+AuthUserFile "/home/raphaelmja/histoiredepeche.fr/admin/.htpasswd"
+Require valid-user

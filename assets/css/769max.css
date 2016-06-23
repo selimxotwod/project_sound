@@ -1,0 +1,195 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#social{
+    top: 20px;
+    right: 20px;
+}
+
+#social a{
+    clear: both;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #03051A;
+    padding-top: 8px;
+    margin-bottom: 15px;
+}
+
+#social i{
+    color: #03051A;
+    font-size: 13px;
+}
+
+.logo-home{
+    margin-top: 10vh;
+    width: 230px;
+    opacity: 1;
+}
+
+#bateau{
+    bottom: 40vh;
+    width: 110px;
+    animation: x4 6s ease-in-out infinite, y4 6s ease-in-out infinite, rotate2 6s ease-in-out infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s
+}
+
+#vagues{
+    top: 52%;
+}
+
+@keyframes y4 {
+    0% {bottom: 40vh;}
+    10% {bottom: 41vh;}
+    20% {bottom: 42vh;  }
+    40% {bottom: 42vh;}
+    60% {bottom: 42vh;}
+    80% {bottom: 41vh;}
+    100% {bottom: 40vh;}
+}
+
+.wrapper-scroll{
+    position: absolute;
+    bottom: 15vh;
+    height: auto;
+}
+
+.page-scroll{
+    position: relative!important;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+    border: 1px solid #fff;
+    background: url(../img/scroll-small.png) center no-repeat;
+    background-size: 12px;
+    border-radius: 50px;
+}
+
+#back {
+    margin-top: -20vh;
+    padding-top: 40vh;
+    background: #080C20; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #4152af 28%, #081246 81%, #080c20 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#4152af 28%,#081246 81%,#080c20 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#4152af 28%,#081246 81%,#080c20 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#080c20',GradientType=0 ); /* IE6*/
+}
+
+#message{
+    height: auto;
+    background-size: 160%;
+    padding-bottom: 170px;
+}
+
+#message h1{
+    font-size: 20px;
+    font-family: "OpenSans-Bold", sans-serif;
+}
+
+#message p{
+    margin: 80px 20px;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+#petition-acces{
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+}
+
+#propos{
+    padding: 70px 30px;
+}
+
+#propos h2{
+    font-size: 19px;
+}
+
+#propos>p{
+    padding: 0;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+#logo-petition{
+    width: 200px;
+}
+
+#header-pages{
+    background: #080c32;
+    height: 50px;
+    padding-top: 12px;
+    margin-bottom: 60px;
+}
+
+#description{
+    margin-bottom: 40px;
+}
+
+#section-gauche h1, #section-gauche h2, #section-droite h2{
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+#commentaires h2{
+    text-align: center;
+}
+
+.commentaire{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.bloc-commentaire{
+    margin-bottom: 45px;
+}
+
+.nom, .date, #section-droite label{
+    font-size: 14px;
+}
+
+#pagination li{
+    margin: 15px 14px 35px;
+}
+
+#section-droite textarea{
+    height: 145px;
+}
+
+#section-droite input[type='submit']{
+    height: 45px;
+    font-size: 13px;
+}
+
+#confirmation{
+    padding-top: 0;
+}
+
+#confirmation h1{
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+#confirmation h1::after{
+    width: 45px;
+    height: 2px;
+    margin: 40px auto;
+}
+
+#confirmation p{
+    margin: auto;
+    width: 60%;
+    font-family: "OpenSans-Light", sans-serif;
+    font-size: 12px;
+}
+
+.footer-confirmation{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
